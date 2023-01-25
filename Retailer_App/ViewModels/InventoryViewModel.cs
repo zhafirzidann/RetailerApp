@@ -27,6 +27,7 @@ namespace Retailer_App.ViewModels
                 PropertyChanged?.Invoke(this,
                     new PropertyChangedEventArgs(null));
             }
+            hhhh
         }
     }
 }
