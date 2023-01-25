@@ -15,5 +15,18 @@ namespace Retailer_App.ViewModels
 {
     class InventoryViewModel
     {
+        public bool ProChecked
+        {
+            get
+            {
+                return check;
+            }
+            set
+            {
+                check = value;
+                PropertyChanged?.Invoke(this,
+                    new PropertyChangedEventArgs(null));
+            }
+        }
     }
 }
