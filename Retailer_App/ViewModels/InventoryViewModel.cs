@@ -28,6 +28,8 @@ namespace Retailer_App.ViewModels
                     new PropertyChangedEventArgs(null));
             }
             hhhh
+
+                kkkk
         }
     }
 }
